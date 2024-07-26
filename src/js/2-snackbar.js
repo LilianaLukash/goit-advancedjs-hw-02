@@ -5,6 +5,7 @@ document.getElementById('promiseForm').addEventListener('submit', function(event
 
     const delay = Number(this.delay.value);
     const state = this.state.value;
+    this.delay.value = '';
 
     new Promise((resolve, reject) => {
         setTimeout(() => {
