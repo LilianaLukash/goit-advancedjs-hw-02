@@ -8,29 +8,31 @@
     <link rel="stylesheet" href="./css/1-timer.css" />
   </head>
   <body>
-    <section>
+    <section class="gohome">
       <a href="./index.html">Go home</a>
     </section>
-    <section class="timer">
-      <input type="text" id="datetime-picker" />
-      <button type="button" data-start disabled>Start</button>
+    <section class="tm">
+      <div>
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start disabled>Start</button>
+      </div>
 
       <div class="timer">
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-days>00</span>
           <span class="label">Days</span>
         </div>
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-hours>00</span>
           <span class="label">Hours</span>
         </div>
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-minutes>00</span>
           <span class="label">Minutes</span>
         </div>
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-seconds>00</span>
-          <span the="label">Seconds</span>
+          <span class="label">Seconds</span>
         </div>
       </div>
     </section>
