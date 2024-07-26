@@ -10,32 +10,34 @@
     <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-3cfb730f.js">
     <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-77e16229.js">
     <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/vendor-7a007824.css">
-    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/1-timer-03f87f80.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/1-timer-37deb8b4.css">
   </head>
   <body>
-    <section>
+    <section class="gohome">
       <a href="./index.html">Go home</a>
     </section>
-    <section class="timer">
-      <input type="text" id="datetime-picker" />
-      <button type="button" data-start disabled>Start</button>
+    <section class="tm">
+      <div>
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start disabled>Start</button>
+      </div>
 
       <div class="timer">
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-days>00</span>
           <span class="label">Days</span>
         </div>
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-hours>00</span>
           <span class="label">Hours</span>
         </div>
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-minutes>00</span>
           <span class="label">Minutes</span>
         </div>
-        <div class="field">
+        <div class="field numb">
           <span class="value" data-seconds>00</span>
-          <span the="label">Seconds</span>
+          <span class="label">Seconds</span>
         </div>
       </div>
     </section>
